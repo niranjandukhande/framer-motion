@@ -1,9 +1,9 @@
-import StaggerTextReveal from "./components/Stagger/StaggerTextReveal"
+import DynamicRotation from "./components/UseMotionValue&UseSpring/DynamicRotation"
 
 const App = () => {
   return (
     <div className="h-screen flex justify-center items-center bg-[#0d1017]">
-      <StaggerTextReveal />
+      <DynamicRotation />
     </div>
   )
 }
